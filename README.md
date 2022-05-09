@@ -4,4 +4,6 @@
 
 ## Methods
 
+[plot](Figures/wildcat.png)
+
 ## Results
