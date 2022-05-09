@@ -4,7 +4,7 @@
 
 ## Methods
 
-![alt text](https://https://github.com/vgp1003/Bushmeat_Barcoading/Figures/wildcat.png "wildcat.png")
+![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/wildcat.png "wildcat.png")
 
 
 ## Results
