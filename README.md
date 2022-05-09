@@ -1,2 +1,7 @@
-# Bushmeat_Barcoading
-Bushmeat sequence analysis
+## Bushmeat Barcoading
+
+#Introduction
+
+#Methods
+
+#Results
