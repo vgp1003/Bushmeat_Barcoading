@@ -1,7 +1,7 @@
-## Bushmeat Barcoading
+# Bushmeat Barcoading
 
-# Introduction
+## Introduction
 
-# Methods
+## Methods
 
-# Results
+## Results
