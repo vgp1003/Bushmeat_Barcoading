@@ -24,6 +24,9 @@
 
 CLUSTALW Alignment
 
+![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Crocodiles_Alignment_vis.PNG "Crocodiles_Alignment_vis.PNG")
+
+
 RAxML Trees
 
 ## References
