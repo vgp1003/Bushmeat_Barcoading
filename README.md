@@ -20,17 +20,20 @@
 
 3) ML trees were inferred using RAxML v8.1.20 ran with model GTRGAMMA and default parameters. Branch supports were computed out of 100 bootstrapped trees. This was different from Eaton et al. whose ML trees were inferred using RAxML 7.0.4 ran with model GTRGAMMA and node support out of 100 rapid bootstrap replicates.
 
-## Results
+## Results/Discussion
 
-Crocodiles
+**Crocodiles**
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Crocodiles_Alignment_vis.PNG "Crocodiles_Alignment_vis.PNG")
-Figure 3. CLUSTALW alignment for Eaton et al. and NCBI refrence Crocodile COX1 genes. Visualized with Jalview.
+Figure 3. CLUSTALW alignment for Eaton et al. and NCBI reference crocodile COX1 genes. Visualized with Jalview.
+
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Crocodile_trees.png "Crocodile_trees.png")
 
-Aligators
+**Aligators**
 
+![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Alligator_alignment_vis.PNG "Alligator_alignment_vis.PNG")
+Figure 3. CLUSTALW alignment for Eaton et al. and NCBI reference alligator COX1 genes. Visualized with Jalview.
 
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Alligator_trees.png "Alligator_trees.png")
