@@ -22,14 +22,16 @@
 
 ## Results
 
-CLUSTALW Alignment
+Crocodiles
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Crocodiles_Alignment_vis.PNG "Crocodiles_Alignment_vis.PNG")
 Figure 3. CLUSTALW alignment for Eaton et al. and NCBI refrence Crocodile COX1 genes. Visualized with Jalview.
 
-RAxML Trees
-
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Crocodile_trees.png "Crocodile_trees.png")
+
+Aligators
+
+
 
 ## References
 
