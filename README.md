@@ -14,14 +14,17 @@
 
 ## Methods
 
-1) Downloaded Eaton et al.'s 173 COX1 gene sequences from NCBI along with NCBI refrence COX1 genes for the various species in the paper.
+1) Downloaded FASTAs for Eaton et al.'s 173 COX1 gene sequences from NCBI along with NCBI refrence COX1 genes for the various species in the paper.
 
-2) Alignment and phylogenetic reconstructions were performed on CLUSTALW using the function "build" of ETE3 v3.1.1. Alignment files were then visualized with the online MAFFT Viewer tool. 
+2) Alignment and phylogenetic reconstructions were performed using the function "build" of ETE3 v3.1.1 CLUSTALW as implemented on the GenomeNet (https://www.genome.jp/tools/ete/). CLUSTALW was selected for consistancy with Eaton et al.'s alignment procedure. Alignment files were then visualized with Jalview (Fig. 3,4,5). 
 
-3) ML tree was inferred using RAxML v8.1.20 ran with model GTRGAMMA and default parameters. Branch supports were computed out of 100 bootstrapped trees. 
-
+3) ML trees were inferred using RAxML v8.1.20 ran with model GTRGAMMA and default parameters. Branch supports were computed out of 100 bootstrapped trees. This was different from Eaton et al. whose ML trees were inferred using RAxML 7.0.4 ran with model GTRGAMMA and node support out of 100 rapid bootstrap replicates.
 
 ## Results
+
+CLUSTALW Alignment
+
+RAxML Trees
 
 ## References
 
