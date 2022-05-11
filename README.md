@@ -33,7 +33,7 @@ Figure 3. CLUSTALW alignment for Eaton et al. and NCBI reference crocodile COX1 
 **Aligators**
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Alligator_alignment_vis.PNG "Alligator_alignment_vis.PNG")
-Figure 3. CLUSTALW alignment for Eaton et al. and NCBI reference alligator COX1 genes. Visualized with Jalview.
+Figure 5. CLUSTALW alignment for Eaton et al. and NCBI reference alligator COX1 genes. Visualized with Jalview.
 
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Alligator_trees.png "Alligator_trees.png")
