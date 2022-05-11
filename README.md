@@ -6,11 +6,11 @@
                                                                 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Map.PNG "Map.PNG") 
 
-   COX1 is a highly conserved mitochondiral gene that encodes a protein essential to respiration. It is an established standard for DNA barcoding with relialble applications for species identification. Thus, COX1 has promising potential as a bushmeat barcoding tool [3]. My project is based off a 2010 study by Eaton et al. [2] that collected tissue samples from different commonoly hunted mammal and reptile species (Fig. 2) in various South American and Central African locations. The study sequenced the COX1 gene from all their samples and built three phylogenetic trees to identify the different crocodile, alligator, and deer species based on this DNA barcode. Since this study was published in 2010, a wealth of new bioinformatic data and has become publicly availible. This includes COX1 refrence sequences for the majority of the species studied in the paper. 
+   COX1 is a highly conserved mitochondiral gene that encodes a protein essential to respiration. It is an established standard for DNA barcoding with relialble applications for species identification. Thus, COX1 has promising potential as a bushmeat barcoding tool [3]. My project is based off a 2010 study by Eaton et al. [2] that collected tissue samples from different commonoly hunted mammal and reptile species (Fig. 2) in various South American and Central African locations. The study sequenced the COX1 gene from all their samples and built three phylogenetic trees to identify the different crocodile, alligator, and duiker species based on this DNA barcode. Since this study was published in 2010, a wealth of new bioinformatic data and has become publicly availible. This includes COX1 refrence sequences for the majority of the species studied in the paper. 
    
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Croc.PNG "Croc.PNG")
    
-   The goal of this project was to 1) use the COX1 sequences that Eaton et _al._ depostied on NCBI to recreate their crocodile, alligator and deer phylogenetic trees using different RAxML versions for comparison. Then 2) add refrence COX1 genes from each species that had them availible on NCBI to see where they fall on the tree. Because Eaton et _al._ achieved high confidence for their species identifications, it was hypothesized that the NCBI refrence COX1 genes would fall closely within the expected species on the trees. 
+   The goal of this project was to 1) use the COX1 sequences that Eaton et _al._ depostied on NCBI to recreate their crocodile, alligator and duiker phylogenetic trees using different RAxML versions for comparison. Then 2) add refrence COX1 genes from each species that had them availible on NCBI to see where they fall on the tree. Because Eaton et _al._ achieved high confidence for their species identifications, it was hypothesized that the NCBI refrence COX1 genes would fall closely within the expected species on the trees. 
 
 ## Methods
 
@@ -46,20 +46,26 @@ Figure 5. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference alliga
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Alligator_trees.png "Alligator_trees.png")
 
-- Similarly to the crocodile tree, _A. mississippienis_, was used as the outgroup.
+- Similarly to the crocodile tree, _A. mississippiens_, was used as the outgroup.
 - The paper reported that one aligator sample (_M. niger25_) that was previously thought to be from _M. niger_, was actually a misidentified _C. yacare_ sample. The reconstructed tree was in concurrence with this identification.
-- Unlike the crocodile tree, there were fundamental relationship differences between the reconstructed (Fig. 6A) and Eaton et _al._ (Fig. 6B) phylograms for the alligators.
+- Unlike the crocodile tree, there was a fundamental relationship difference between the reconstructed (Fig. 6A) and Eaton et _al._ (Fig. 6B) phylograms for the alligators.
 -  While the reconstructed tree placed the P. _trigonatus_/_P. palpebrosus_ (yelllow/purple)  closer to the _C. yacare_/_C.c. chiapasius_ group (pink/dark green), the Eaton et _al._ tree placed the _P. trigonatus_/ _P. palpebrosus_ group more closely related to _M. niger_/_C. latirostris_ group (orange/blue). 
 -  Only two of the alligator species in the tree have NCBI reference COX1 genes availible (_P. trigonatus_ and _P. palpebrossus_) (yellow and purple respectively). Both NCBI references fell closely within the expected species with bootstrap values of 100.
 
-This structural difference between the two trees could be due to the different versions of RAxML used. The Eaton et _al._ tree did not include a bootstrapping value for the node where their _P. trigonatus_/ _P. palpebrosus_ grouping diverged from the rest of the species (circled in blue), however the reconstructed tree has a bootstrapping value of 100 at this position where the trees differ. Interestingly, the bootstrap value that corresponds to the split between the _C. yacare_/_C.c. chiapasius_ group and the  _M. niger_/_C. latirostris_ group on the Eaton et _al._ tree is relatively low (80).
+The Eaton et _al._ tree did not include a bootstrapping value for the node where their _P. trigonatus_/ _P. palpebrosus_ grouping diverged from the rest of the species (circled in red), however the reconstructed tree has a bootstrapping value of 100 at this same position where the trees differ. Interestingly, the bootstrap value that corresponds to the split between the _C. yacare_/_C.c. chiapasius_ group and the  _M. niger_/_C. latirostris_ group on the Eaton et _al._ tree is relatively low (80). This structural difference between the two trees could be due to the different versions of RAxML used. 
 
-**Deer**
+**Central African Duikers**
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Deer_Alignment_vis.PNG "Deer_Alignment_vis.PNG")
 Figure 7. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference deer COX1 genes. Visualized with Jalview.
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Deer_trees.png "Deer_trees.png")
+
+- _T. eurycerus_, a species of bongo native to Central Africa was used as the outgroup. 
+- Eation et _al._ did not deposit their unidentified sample sequences (Uniden11, Uniden10, and Uniden 15) to NCBI, thus, they were not included on the reconsrtucted tree (Fig. 8A). 
+- The paper reported that one aligator sample (_C.callpygus_ YF42) that was previously thought to be from _C.callpygus_, was actually a misidentified _C. dorsalis_ sample. The reconstructed tree was in concurrence with this identification.
+- There were multiple fundamental relationship differences between the reconstructed and Eaton et _al._ (Fig. 8B) phylograms for the duikers.
+- 
 
 ## Conclusions 
 ## References
