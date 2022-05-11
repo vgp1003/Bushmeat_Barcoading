@@ -20,7 +20,7 @@
 
 3) ML trees were inferred using RAxML v8.1.20 ran with model GTRGAMMA and default parameters. Branch supports were computed out of 100 bootstrapped trees. This was different from Eaton et _al._ whose ML trees were inferred using RAxML 7.0.4 ran with model GTRGAMMA and node support out of 100 rapid bootstrap replicates.
 
-## Results/Discussion
+## Findings
 
 **Central African Crocodiles**
 
@@ -70,7 +70,8 @@ Figure 7. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference deer C
 - The reconstructed tree also showed the _C. dorsalis_ sequences so branch off from the rest of the species very early on, with a boostrapping value of 100 at the diverging node. This was not the case for the Eaton et al. tree where _C. dorsalis_ breanched off from _C. callpygus/C.monticola_ (orange/blue) much later.
 - There were NCBI reference COX1 sequences for all duiker species on the tree except for _C. monticola_. All NCBI reference COX1 genes fell closely within the expected species of the reconstructed tree.  
 
-## Conclusions 
+These structural differences between the  reconstructed and Eaton et _al._ trees are again likely due to the different RAxML versions used to infer the phylograms. It is also possible that the omission of the three unidentified smaples could have changed some of the species relationships on the reconstructed tree. Interestingly, there is no bootstrap value for the node where the two _C. leucogaster_ groupings diverge on the Eaton et _al._ tree. There is no in depth discussion in the paper about why the species is split in two on this phylogram, but it is an unusual finding that may have effected the placement of other species relationships on their tree. 
+
 ## References
 
 [1] Ripple WJ, Abernethy K, Betts MG, Chapron G, Dirzo R, Galetti M, Levi T, Lindsey PA, Macdonald DW, Machovina B, Newsome TM, Peres CA, Wallach AD, Wolf C, Young H. Bushmeat hunting and extinction risk to the world's mammals. R Soc Open Sci. 2016 Oct 19;3(10):160498. doi: 10.1098/rsos.160498. PMID: 27853564; PMCID: PMC5098989.
