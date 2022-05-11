@@ -47,12 +47,12 @@ Figure 5. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference alliga
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Alligator_trees.png "Alligator_trees.png")
 
 - Similarly to the crocodile tree, _A. mississippienis_, was used as the outgroup.
+- The paper reported that one aligator sample (_M. niger25_) that was previously thought to be from _M. niger_, was actually a misidentified _C. yacare_ sample. The reconstructed tree was in concurrence with this identification.
 - Unlike the crocodile tree, there were fundamental relationship differences between the reconstructed (Fig. 6A) and Eaton et _al._ (Fig. 6B) phylograms for the alligators.
 -  While the reconstructed tree placed the P. _trigonatus_/_P. palpebrosus_ (yelllow/purple)  closer to the _C. yacare_/_C.c. chiapasius_ group (pink/dark green), the Eaton et _al._ tree placed the _P. trigonatus_/ _P. palpebrosus_ group more closely related to _M. niger_/_C. latirostris_ group (orange/blue). 
--  Only two of the alligator species in the tree have NCBI reference COX1 genes availible (_P. trigonatus_ and _P. palpebrossus_) (yellow and purple respectively). Both references fell closely within the expected species.
+-  Only two of the alligator species in the tree have NCBI reference COX1 genes availible (_P. trigonatus_ and _P. palpebrossus_) (yellow and purple respectively). Both NCBI references fell closely within the expected species with bootstrap values of 100.
 
-
-
+This structural difference between the two trees could be due to the different versions of RAxML used. The Eaton et _al._ tree did not include a bootstrapping value for the node where their _P. trigonatus_/ _P. palpebrosus_ grouping diverged from the rest of the species (circled in blue), however the reconstructed tree has a bootstrapping value of 100 at this position where the trees differ. Interestingly, the bootstrap value that corresponds to the split between the _C. yacare_/_C.c. chiapasius_ group and the  _M. niger_/_C. latirostris_ group on the Eaton et _al._ tree is relatively low (80).
 
 **Deer**
 
