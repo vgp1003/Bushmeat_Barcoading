@@ -32,7 +32,7 @@ Figure 3. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference crocod
 
 - _A. mississippienis_, and aligator species whose habitat spans the southern states of the USA, was used as the outgroup.
 - The reconstructed tree (Fig. 4A) showed the same species relationships as the tree made by Eaton et al. (Fig. 4B) with upsidedown orientation. (The sequence for 1USFWS in Fig. 4B, a crocodile skin handbag of unknown origins which Eaton et al. determined to be C. nilotictus, was not depsited on NCBI and therefore was not included in Fig. 4A. 
-- All the NCBI reference COX1 sequences fell closely within the same clade as their expected species except for the M. cataphractus.
+- All the NCBI reference COX1 sequences fell closely within the same clade as their expected species except for _M. cataphractus_ (purple).
 - This sequence branched of before the Eaton et al. _M. cataphractus_ sequences at a node with a relatively low boostrap value of 0.048.
 - The paper collected the majority of their _C. niloticus_ samples from Gabon. However the one _C. nilotictus_ sample that was collected from the Congo ( _C. nilotictus_ (congo)) was significantly different from the Gabon samples. Interestingly, the two types of _C. nilotictus_ specimines fell similarly on the reconstructed tree, and the NCBI _C. nilotictus_ COX1 refrence sequence fell closer to the Gabon samples. 
 
@@ -65,7 +65,9 @@ Figure 7. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference deer C
 - Eation et _al._ did not deposit their unidentified sample sequences (Uniden11, Uniden10, and Uniden 15) to NCBI, thus, they were not included on the reconsrtucted tree (Fig. 8A). 
 - The paper reported that one aligator sample (_C.callpygus_ YF42) that was previously thought to be from _C.callpygus_, was actually a misidentified _C. dorsalis_ sample. The reconstructed tree was in concurrence with this identification.
 - There were multiple fundamental relationship differences between the reconstructed and Eaton et _al._ (Fig. 8B) phylograms for the duikers.
-- 
+- While the Eaton et _al._ tree split the _C. leucogaster_ (green) samples into two distantly related branches, the reconstructed tree did not.
+- The reconstructed tree showed some of the _C. leucogaster_ samples to be closely related to _C. nigifirons_ (purple) in a clade that was not present on the Eaton et _al._ tree. The _C. nigifrons_ sequences on the Eaton et al. tree were more closely related to _C. dorsalis_ (yellow) than _C. leucogaster_.
+- also showed the _C. dorsalis_ sequences so branch off from the rest of the species very early on, with a boostrapping value of 100 at the diverging node. 
 
 ## Conclusions 
 ## References
