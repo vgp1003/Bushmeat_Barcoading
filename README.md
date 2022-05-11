@@ -10,15 +10,15 @@
    
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Croc.PNG "Croc.PNG")
    
-   The goal of this project was to 1) use the COX1 sequences that Eaton et _al._ depostied on NCBI to recreate their crocodile, alligator and deer phylogenetic trees using different RAxML versions for comparison. Then 2) add refrence COX1 genes from each species that had them availible on NCBI to see where they fall on the tree. Because Eaton et al. achieved high confidence for their species identifications, it was hypothesized that the NCBI refrence COX1 genes would fall closely within the expected species on the trees. 
+   The goal of this project was to 1) use the COX1 sequences that Eaton et _al._ depostied on NCBI to recreate their crocodile, alligator and deer phylogenetic trees using different RAxML versions for comparison. Then 2) add refrence COX1 genes from each species that had them availible on NCBI to see where they fall on the tree. Because Eaton et _al._ achieved high confidence for their species identifications, it was hypothesized that the NCBI refrence COX1 genes would fall closely within the expected species on the trees. 
 
 ## Methods
 
-1) Downloaded FASTAs for Eaton et al.'s 173 COX1 gene sequences from NCBI along with NCBI refrence COX1 genes for the various species in the paper.
+1) Downloaded FASTAs for Eaton et _al._'s 173 COX1 gene sequences from NCBI along with NCBI refrence COX1 genes for the various species in the paper.
 
-2) Alignment and phylogenetic reconstructions were performed using the function "build" of ETE3 v3.1.1 CLUSTALW as implemented on the GenomeNet (https://www.genome.jp/tools/ete/). CLUSTALW was selected for consistancy with Eaton et al.'s alignment procedure. Alignment files were then visualized with Jalview (Fig. 3,4,5). 
+2) Alignment and phylogenetic reconstructions were performed using the function "build" of ETE3 v3.1.1 CLUSTALW as implemented on the GenomeNet (https://www.genome.jp/tools/ete/). CLUSTALW was selected for consistancy with Eaton et _al._'s alignment procedure. Alignment files were then visualized with Jalview (Fig. 3,4,5). 
 
-3) ML trees were inferred using RAxML v8.1.20 ran with model GTRGAMMA and default parameters. Branch supports were computed out of 100 bootstrapped trees. This was different from Eaton et al. whose ML trees were inferred using RAxML 7.0.4 ran with model GTRGAMMA and node support out of 100 rapid bootstrap replicates.
+3) ML trees were inferred using RAxML v8.1.20 ran with model GTRGAMMA and default parameters. Branch supports were computed out of 100 bootstrapped trees. This was different from Eaton et _al._ whose ML trees were inferred using RAxML 7.0.4 ran with model GTRGAMMA and node support out of 100 rapid bootstrap replicates.
 
 ## Results/Discussion
 
@@ -34,6 +34,7 @@ Figure 3. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference crocod
 - The reconstructed tree (Fig. 4A) showed the same species relationships as the tree made by Eaton et al. (Fig. 4B) with upsidedown orientation. (The sequence for 1USFWS in Fig. 4B, a crocodile skin handbag of unknown origins which Eaton et al. determined to be C. nilotictus, was not depsited on NCBI and therefore was not included in Fig. 4A. 
 - All the NCBI reference COX1 sequences fell closely within the same clade as their expected species except for the M. cataphractus.
 - This sequence branched of before the Eaton et al. _M. cataphractus_ sequences at a node with a relatively low boostrap value of 0.048.
+- The paper collected the majority of their _C. niloticus_ samples from Gabon. However the one _C. nilotictus_ sample that was collected from the Congo ( _C. nilotictus_ (congo)) was significantly different from the Gabon samples. Interestingly, the two types of _C. nilotictus_ specimines fell similarly on the reconstructed tree, and the NCBI _C. nilotictus_ COX1 refrence sequence fell closer to the Gabon samples. 
 
 Discrepancy in _M. cataphractus_ placement could be due to differences in the RAxML versions used to build the tree (Eaton et al. used RAxML 7.0.4. while this study used RAxML v8.1.20 from the online CLUSTALW tool. Discrepancies could also be due to species sampling location. Eaton et _al._ only collected samples from Gabon and Congo while the natural habitat of _M. cataphractus_ spans from Senegal to the Democratic Republic of the Congo. This means that the NCBI refrence could have potentially been built from a much wider geographical range than the sequences collected in the paper. It is also important to note that there is a large temporal gap between the collecton of the specimines in the paper and the publishing of the _M. cataphractus_ reference COX1 sequence. The majority of the Eaton et _al_. samples were collected before 1990 while the NCBI refrence was published in 2021, thus it is possible that this rougly 30 year gap could also contribute to the _M. cataphractus_ discrepancy.  
 
