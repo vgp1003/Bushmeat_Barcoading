@@ -22,7 +22,7 @@
 
 ## Results/Discussion
 
-**Crocodiles**
+**Central African Crocodiles**
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Crocodiles_Alignment_vis.PNG "Crocodiles_Alignment_vis.PNG")
 Figure 3. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference crocodile COX1 genes. Visualized with Jalview.
@@ -30,7 +30,7 @@ Figure 3. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference crocod
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Crocodile_trees.png "Crocodile_trees.png")
 
-- A.mississippiens, and aligator species whose habitat spans the southern states of the USA, was used as the outgroup.
+- _A. mississippienis_, and aligator species whose habitat spans the southern states of the USA, was used as the outgroup.
 - The reconstructed tree (Fig. 4A) showed the same species relationships as the tree made by Eaton et al. (Fig. 4B) with upsidedown orientation. (The sequence for 1USFWS in Fig. 4B, a crocodile skin handbag of unknown origins which Eaton et al. determined to be C. nilotictus, was not depsited on NCBI and therefore was not included in Fig. 4A. 
 - All the NCBI reference COX1 sequences fell closely within the same clade as their expected species except for the M. cataphractus.
 - This sequence branched of before the Eaton et al. _M. cataphractus_ sequences at a node with a relatively low boostrap value of 0.048.
@@ -38,13 +38,18 @@ Figure 3. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference crocod
 
 Discrepancy in _M. cataphractus_ placement could be due to differences in the RAxML versions used to build the tree (Eaton et al. used RAxML 7.0.4. while this study used RAxML v8.1.20 from the online CLUSTALW tool. Discrepancies could also be due to species sampling location. Eaton et _al._ only collected samples from Gabon and Congo while the natural habitat of _M. cataphractus_ spans from Senegal to the Democratic Republic of the Congo. This means that the NCBI refrence could have potentially been built from a much wider geographical range than the sequences collected in the paper. It is also important to note that there is a large temporal gap between the collecton of the specimines in the paper and the publishing of the _M. cataphractus_ reference COX1 sequence. The majority of the Eaton et _al_. samples were collected before 1990 while the NCBI refrence was published in 2021, thus it is possible that this rougly 30 year gap could also contribute to the _M. cataphractus_ discrepancy.  
 
-**Aligators**
+**South American Alligators**
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Alligator_alignment_vis.PNG "Alligator_alignment_vis.PNG")
 Figure 5. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference alligator COX1 genes. Visualized with Jalview.
 
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Alligator_trees.png "Alligator_trees.png")
+
+- Similarly to the crocodile tree, _A. mississippienis_, was used as the outgroup.
+- Unlike the crocodile tree, there were fundamental relationship differences between the reconstructed and Eaton et _al._ phylograms for the alligators.
+-  
+
 
 **Deer**
 
