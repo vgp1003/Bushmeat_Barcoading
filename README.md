@@ -47,8 +47,11 @@ Figure 5. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference alliga
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Alligator_trees.png "Alligator_trees.png")
 
 - Similarly to the crocodile tree, _A. mississippienis_, was used as the outgroup.
-- Unlike the crocodile tree, there were fundamental relationship differences between the reconstructed and Eaton et _al._ phylograms for the alligators.
--  
+- Unlike the crocodile tree, there were fundamental relationship differences between the reconstructed (Fig. 6A) and Eaton et _al._ (Fig. 6B) phylograms for the alligators.
+-  While the reconstructed tree placed the P. _trigonatus_/_P. palpebrosus_ (yelllow/purple)  closer to the _C. yacare_/_C.c. chiapasius_ group (pink/dark green), the Eaton et _al._ tree placed the _P. trigonatus_/ _P. palpebrosus_ group more closely related to _M. niger_/_C. latirostris_ group (orange/blue). 
+-  Only two of the alligator species in the tree have NCBI reference COX1 genes availible (_P. trigonatus_ and _P. palpebrossus_) (yellow and purple respectively). Both references fell closely within the expected species.
+
+
 
 
 **Deer**
@@ -58,6 +61,7 @@ Figure 7. CLUSTALW alignment snapshot for Eaton et al. and NCBI reference deer C
 
 ![alt text](https://github.com/vgp1003/Bushmeat_Barcoading/blob/main/Figures/Deer_trees.png "Deer_trees.png")
 
+## Conclusions 
 ## References
 
 [1] Ripple WJ, Abernethy K, Betts MG, Chapron G, Dirzo R, Galetti M, Levi T, Lindsey PA, Macdonald DW, Machovina B, Newsome TM, Peres CA, Wallach AD, Wolf C, Young H. Bushmeat hunting and extinction risk to the world's mammals. R Soc Open Sci. 2016 Oct 19;3(10):160498. doi: 10.1098/rsos.160498. PMID: 27853564; PMCID: PMC5098989.
